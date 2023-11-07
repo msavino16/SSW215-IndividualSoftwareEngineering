@@ -1,0 +1,21 @@
+#center {
+    text-align: center;
+}
+#bank {
+    border-style: solid;
+    margin-left: 600px;
+    margin-right: 600px;
+    text-align: center;
+}
+img {
+    width: 720px;
+    height: auto;
+    
+}
+#rules {
+    border-style: solid;
+    margin-left: 200px;
+    margin-right: 200px;
+    text-align: center;
+    
+}

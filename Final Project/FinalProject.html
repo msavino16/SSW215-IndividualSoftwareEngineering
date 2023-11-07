@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Hangman Game</title>
+</head>
+<link rel="stylesheet" href="style.css">
+<body>
+    <h1 id = "center">Welcome to Hangman</h1>
+    <hr>
+    <h2 id = "center"><b><u>Rules</u></b></h2>
+    <h3 id = "rules">
+       The goal of the game is simple: You are given a random word that you must guess. To preform a guess you enter a letter, and that letter is filled in for the word. If you guess a letter incorrectly you use an attempt. If you use all 5 of your attempts before guessing the word, its a game over. If you successfully guess the full word in under 5 attempts, you win!
+    </h3>
+    <center><img src="0 Attempts.png" id = "mainimg"></center>
+    <center><h1 id = "word"></h4></center>
+    <center><h2><input type="text" id="entry" name="entry" value="" maxlength="1"><br></center>
+    <center><button id = "submit" onclick="iGuess()">Submit</button></center>
+    <center><h5 id = "tries"></h5></center>
+    <center><h2><u>Word Bank</u></h2></center>
+    <h3 id = "bank"><h3>
+    <script src = "script.js"></script>
+</body>
+
+</html>
